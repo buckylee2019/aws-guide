@@ -1,24 +1,38 @@
-# AWS Container Insights CPU Monitoring Guide
+# AWS Service Guides
 
-This repository contains guides for monitoring container CPU usage with AWS Container Insights, with a focus on Amazon ECS.
+This repository contains comprehensive guides for various AWS services and features, designed to help users implement AWS best practices.
 
-## Contents
+## Available Guides
 
-- [English Guide](./ECS_Container_Insights_CPU_Monitoring_Guide.md) - Guide in English
-- [繁體中文指南](./ECS_Container_Insights_CPU監控指南.md) - Guide in Traditional Chinese
+### Container Insights
+- [ECS Container Insights CPU Monitoring (English)](./ECS_Container_Insights_CPU_Monitoring_Guide.md)
+- [ECS Container Insights CPU 監控 (繁體中文)](./ECS_Container_Insights_CPU監控指南.md)
+
+<!-- Add new guides below as they are created -->
 
 ## Purpose
 
-This documentation aims to help AWS users identify containers with high CPU usage in Amazon ECS environments using Container Insights. It includes step-by-step instructions for:
+This documentation aims to help AWS users effectively utilize AWS services through practical, step-by-step guides. Each guide includes:
 
-- Enabling Container Insights on ECS clusters
-- Identifying containers with high CPU usage
-- Setting up alarms for CPU monitoring
-- Implementing best practices for container resource management
+- Service configuration instructions
+- Monitoring and observability setup
+- Alarm configuration best practices
+- Performance optimization recommendations
+- Common troubleshooting steps
+
+## Guide Structure
+
+Each guide follows a consistent format:
+1. Introduction and use cases
+2. Prerequisites
+3. Setup and configuration
+4. Monitoring and alerting
+5. Best practices
+6. Troubleshooting
 
 ## Contributing
 
-Contributions to improve the documentation are welcome. Please feel free to submit a pull request or open an issue.
+Contributions to improve existing guides or add new guides are welcome. Please feel free to submit a pull request or open an issue.
 
 ## License
 
