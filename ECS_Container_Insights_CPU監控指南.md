@@ -12,17 +12,16 @@ Amazon ECS Container Insights 提供了全面的監控功能，可以幫助您�
 
 1. 登入 AWS 管理控制台
 2. 導航至 Amazon ECS 服務
-3. 選擇您的叢集
-4. 在「設定」標籤中，選擇「更新叢集設定」
-5. 勾選「Container Insights」選項
-6. 點擊「更新」保存設定
+3. 在「帳戶設定」標籤中，選擇「CloudWatch Container Insights 可觀測性」
+4. 勾選「具有增強可觀測性的 Container Insights」選項
+5. 點擊「儲存變更」保存設定
 
 ### 透過 AWS CLI 啟用
 
 執行以下命令：
 
 ```bash
-aws ecs update-cluster-settings --cluster 您的叢集名稱 --settings name=containerInsights,value=enabled
+aws ecs update-cluster-settings --cluster 您的叢集名稱 --settings name=containerInsights,value=enhanced
 ```
 
 ## 識別 CPU 使用率最高的容器
