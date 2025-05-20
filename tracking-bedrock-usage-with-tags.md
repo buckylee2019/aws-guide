@@ -14,6 +14,9 @@ Amazon Bedrock has introduced **application inference profiles**, a capability t
 
 ### 1. Create Inference Profiles
 
+#### Find and copy inference profile
+
+![profile](asset/inference-profile.png)
 Inference profiles can be created using the AWS SDK:
 
 #### Using AWS SDK (Python Example)
