@@ -96,7 +96,7 @@ aws bedrock create-inference-profile \
 2. 激活這些標籤用於成本分配：
    - 導航至 AWS Billing and Cost Management 控制台
    - 選擇「成本分配標籤」
-   - 找到您的標籤並點擊「激活」
+   - 找到您的標籤並點擊「啟用」
    - 注意：新激活的標籤可能需要長達 24 小時才能在成本報告中顯示
 
 ### 4. 使用推理設定檔調用模型
